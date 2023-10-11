@@ -1,0 +1,4 @@
+Lines: 30
+Words: 498
+Characters: 2549
+Bytes: 2549

@@ -1,38 +1,28 @@
-#include <stdio.h>
-#include <stdbool.h>
+// include header files, need to do input/output and stdbool for boolean expressions
 
 int main() {
-    int charCount = 0;
-    int wordCount = 0;
-    int lineCount = 0;
-    int byteCount = 0; // Initialize byteCount
-    bool inWord = false;
-    int c;
-    int *byteCountPtr = &byteCount; // Create a pointer to byteCount
+    // initialize counter variables for chars, words, lines, bytes, and a current char counter as ints and set to zero
 
-    while ((c = getchar()) != EOF) {
-        charCount++;
+    // init bool to check if currently in a word
+    // initialize a byteCount pointer that gets initialized to the address of byteCount
 
-        *byteCountPtr = charCount; // Update byteCount via the pointer
+    //  getchar() gets a character and runs from stdin until it reaches an EOF delimiter
+        // increment charCount while you're still in the file
 
-        if (c == '\n') {
-            lineCount++;
-        }
+        // Update byteCount to charCount via the pointer
 
+        // if your current char runs into a newline, increment line count
 
-        // Check for word boundaries
-        if (c == ' ' || c == '\t' || c == '\n') {
-            inWord = false;
-        } else if (!inWord) {
-            inWord = true;
-            wordCount++;
-        }
-    }
+        // Check for word boundaries with compound if statement
+        // blank space, tab, or newline marks the start of a new word
+            // if true you know you are in a new word
+            // so you're inWord would turn false as you start a new one
+        // else if you are already inWord
+            // you are still reading a word so update the word count until you
+            // reach a boundary again
+            // so inWord would be true
+            // increment wordCount
 
-    printf("Lines: %d\n", lineCount);
-    printf("Words: %d\n", wordCount);
-    printf("Characters: %d\n", charCount);
-    printf("Bytes: %d\n", byteCount);
-
-    return 0;
+    // formatted printing of our values, Lines, words, chars, bytes
+    // return 0
 }
