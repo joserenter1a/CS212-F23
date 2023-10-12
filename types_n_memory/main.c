@@ -5,24 +5,33 @@ int main() {
 
     // init bool to check if currently in a word
     // initialize a byteCount pointer that gets initialized to the address of byteCount
-
     //  getchar() gets a character and runs from stdin until it reaches an EOF delimiter
-        // increment charCount while you're still in the file
 
+        // increment charCount while you're still in the file
         // Update byteCount to charCount via the pointer
 
         // if your current char runs into a newline, increment line count
-
         // Check for word boundaries with compound if statement
         // blank space, tab, or newline marks the start of a new word
+
             // if true you know you are in a new word
             // so you're inWord would turn false as you start a new one
         // else if you are already inWord
+
             // you are still reading a word so update the word count until you
             // reach a boundary again
             // so inWord would be true
             // increment wordCount
-
     // formatted printing of our values, Lines, words, chars, bytes
-    // return 0
+
+
+    return 0;
 }
+
+// compile with gcc -o wc main.c
+// test using ./wc < small.txt (or any text file)
+// you can run this to send your output to a file
+    // ./wc < small.txt > smallOUT.txt
+// then compare against the sample output
+    // diff smallOUT.txt sample_output/smallSOLUTION.txt | grep "^>" | wc -l
+    // if zero, that means the files are identical and you have a correct solution
