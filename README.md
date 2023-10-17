@@ -3,3 +3,4 @@ Work done for CS212 Class Encore
 
   - Wk01 - Linux & Bash
   - Wk02 - Data Types & Memory
+  - Wk03 - Arrays & Pointers
