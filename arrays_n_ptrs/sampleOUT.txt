@@ -1,0 +1,93 @@
+Using array notation:
+numbers[0] = 1
+numbers[1] = 2
+numbers[2] = 3
+numbers[3] = 4
+numbers[4] = 5
+
+Using pointer notation:
+*(ptr + 0) = 1
+*(ptr + 1) = 2
+*(ptr + 2) = 3
+*(ptr + 3) = 4
+*(ptr + 4) = 5
+
+Using array notation with a string:
+myString[0] = T
+myString[1] = h
+myString[2] = i
+myString[3] = s
+myString[4] =  
+myString[5] = i
+myString[6] = s
+myString[7] =  
+myString[8] = d
+myString[9] = e
+myString[10] = f
+myString[11] = i
+myString[12] = n
+myString[13] = i
+myString[14] = t
+myString[15] = e
+myString[16] = l
+myString[17] = y
+myString[18] =  
+myString[19] = n
+myString[20] = o
+myString[21] = t
+myString[22] =  
+myString[23] = a
+myString[24] =  
+myString[25] = s
+myString[26] = t
+myString[27] = r
+myString[28] = i
+myString[29] = n
+myString[30] = g
+
+Using pointer notation with a string:
+*(strPtr + 0) = T
+*(strPtr + 1) = h
+*(strPtr + 2) = i
+*(strPtr + 3) = s
+*(strPtr + 4) =  
+*(strPtr + 5) = i
+*(strPtr + 6) = s
+*(strPtr + 7) =  
+*(strPtr + 8) = d
+*(strPtr + 9) = e
+*(strPtr + 10) = f
+*(strPtr + 11) = i
+*(strPtr + 12) = n
+*(strPtr + 13) = i
+*(strPtr + 14) = t
+*(strPtr + 15) = e
+*(strPtr + 16) = l
+*(strPtr + 17) = y
+*(strPtr + 18) =  
+*(strPtr + 19) = n
+*(strPtr + 20) = o
+*(strPtr + 21) = t
+*(strPtr + 22) =  
+*(strPtr + 23) = a
+*(strPtr + 24) =  
+*(strPtr + 25) = s
+*(strPtr + 26) = t
+*(strPtr + 27) = r
+*(strPtr + 28) = i
+*(strPtr + 29) = n
+*(strPtr + 30) = g
+
+Using array notation:
+names[0] = Nick
+names[1] = Aaron
+names[2] = Lily
+names[3] = Mia
+names[4] = Michael
+
+Using pointer notation:
+*(ptr + 0) = Nick
+*(ptr + 1) = Aaron
+*(ptr + 2) = Lily
+*(ptr + 3) = Mia
+*(ptr + 4) = Michael
