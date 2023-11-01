@@ -8,4 +8,4 @@ https://quizlet.com/636109543/cis212-practice-midterm-qs-flash-cards/?funnelUUID
 https://quizlet.com/635907858/cis-midterm-1-study-set-flash-cards/?funnelUUID=edb7447a-13f3-4c57-9833-99e791b9783b
 
 ## MT Jeopardy
-[https://jeopardylabs.com/edit/cis-212-midterm-review](https://jeopardylabs.com/play/cis-212-midterm-review)
+https://jeopardylabs.com/play/cis-212-midterm-review
