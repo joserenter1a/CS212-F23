@@ -5,3 +5,4 @@ Work done for CS212 Class Encore
   - Wk02 - Data Types & Memory
   - Wk03 - Arrays & Pointers
   - Wk04 - Midterm Review Practice Problems
+  - Wk05 - Post Midterm Survey and more Unix
