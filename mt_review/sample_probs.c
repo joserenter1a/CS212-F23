@@ -68,11 +68,11 @@ int first_index(char s[], char c)
 
 int main()
 {
-    // test the first one, this should essentially just echo
-    // fcopy(stdin, stdout);
-    char* arr[] = {"This", "is", "an", "Array", NULL};
+    //test the first one, this should essentially just echo
+    //fcopy(stdin, stdout);
+    //char* arr[] = {"This", "is", "an", "Array", NULL};
     char s[] = "CS212";
-    printStrings(arr, stdout);
+    //printStrings(arr, stdout);
     printf("%d\n", first_index(s, '1'));
     return 0;
 }
