@@ -3,6 +3,8 @@
 void int_ptr_arr()
 {
     // Declare your array of ints
+    int numbers[] = {1,2,3,4,5};
+
     /**
      * 
      * When you declare an array like int numbers[5]; 
@@ -13,13 +15,24 @@ void int_ptr_arr()
      *  before you declared the array.
     */
     // Assign the address of the first element of the array to the pointer
-
+    int* ptr = numbers;
     // Access array elements using the array notation
+    printf("Print using array notation:\n");
     // simple for loop structure
+    for(int i =0; i < 5; i++)
+    {
+        printf("numbers[%d] = %d\n", i, numbers[i]);
+    }
         // format string with two values, pass by value
 
     // Access array elements using the pointer notation
+
     // same for loop structure
+    printf("\nPrint using pointer notation\n");
+    for(int i =0; i < 5; i ++)
+    {
+        printf("*(ptr + %d) = %d\n", i, *(ptr + i));
+    }
         // pass by reference, via the ptr
 }
 
@@ -32,10 +45,9 @@ void str_ptr_arr()
 
 void char_ptr_arr()
 {
-    // do the same thing, but with an array of strs (char *'s)
-    // hint: don't forget the double ptr 
-    // in case u forget ->
-        // https://www.geeksforgeeks.org/c-pointer-to-pointer-double-pointer/
+
+
+
     return;
 }
 

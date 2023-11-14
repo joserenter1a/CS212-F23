@@ -1,8 +1,9 @@
 # CS212-F23
 Work done for CS212 Class Encore
 
-  - Wk01 - Linux & Bash
-  - Wk02 - Data Types & Memory
-  - Wk03 - Arrays & Pointers
-  - Wk04 - Midterm Review Practice Problems
-  - Wk05 - Post Midterm Survey and more Unix
+  - Wk02 - Linux & Bash
+  - Wk03 - Data Types & Memory
+  - Wk04 - Arrays & Pointers
+  - Wk05 - Midterm Review Practice Problems
+  - Wk06 - Bye Wk
+  - Wk07 - Post Midterm & Unix Review
