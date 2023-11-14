@@ -7,3 +7,4 @@ Work done for CS212 Class Encore
   - Wk05 - Midterm Review Practice Problems
   - Wk06 - Bye Wk
   - Wk07 - Post Midterm & Unix Review
+  - Wk08 - Dynamically Resized Array
