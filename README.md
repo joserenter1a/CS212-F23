@@ -8,3 +8,5 @@ Work done for CS212 Class Encore
   - Wk06 - Bye Wk
   - Wk07 - Post Midterm & Unix Review
   - Wk08 - Dynamically Resized Array
+  - Wk09 - Holiday No sessions
+  - Wk10 - Jeopardy Review
